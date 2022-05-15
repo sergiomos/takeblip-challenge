@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProjectGuid>a8d709c0-ff98-4521-a8a1-2064e7f73436</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.2.0" />
+    <PackageReference Include="RestEase" Version="1.4.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Take.Api.Challenge.Models\Take.Api.Challenge.Models.csproj" />
+  </ItemGroup>
+</Project>
